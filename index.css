@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+body{
+    height: 100vh;
+    width: 100wv;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+}
+img{
+    align-items: center;
+    border: 20px solid white;
+    margin-top: 50px;
+   margin-left: 495px;
+   border-radius:  100%;
+   width: 300px;
+   height: 300px;
+}
+#name{
+    margin: 10px 450px 200px 490px;
+    font-size: 40px;
+    border: 2px solid ;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+#name:hover{
+    border: 2px solid black;
+    background-color: #fff;
+    color: black;
+}
+.headlinks{
+    display: flex;
+    font-size: 30px;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+.headlink{
+    border: 2px solid black;
+    background-color: #fff;
+    border-radius: 50px;
+    text-decoration:none;
+}
+.headlink:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+#hey{
+    font-size: 90px;
+    margin: 10px 0px 0px 30px;
+}
+strong{
+    border: 2px solid ;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+strong:hover{
+    background-color: #fff;
+    color: black;
+}
+#about{
+    margin: 0px 0px 10px 30px ;
+}
+#contact{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+#connect{
+    margin-top: 50px;
+}
+.mail{
+    margin-top: 50px;
+}
+
